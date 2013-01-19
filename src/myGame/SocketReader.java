@@ -234,7 +234,7 @@ public class SocketReader implements Runnable{
 				return i-index;
 			}
 			if (read[i]==65 || read[i]==71 || read[i]==77){
-				System.out.println("Alternative find ok");
+				System.out.println("Alternative find ok"); //charset problem? maybe 16bit vs 8 bit?
 				return i-index;
 			}
 		}
